@@ -1,0 +1,35 @@
+header, main { 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+button {
+    border: 3px solid #fec63e;
+    padding: 10px 0px;
+    color: #fec63e;
+    font-size:  14px;
+    line-height: 20px;
+    font-weight: bold;
+    letter-spacing: .1em;
+    padding: 10px;
+    margin-top: 10px;
+  }
+  
+button:hover {
+    color: black;
+    border-color: black;
+}
+  
+body {
+    background-color:blueviolet ;
+}
+
+img {
+    background-color: #fff;
+    margin: 5px;
+    padding: -10px 0;
+}
+
+cite:nth-child(2){
+    animation: type2 8s steps(60, end);
+}
